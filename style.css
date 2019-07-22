@@ -1,1 +1,48 @@
+#body1{
+	background-color: #119DA4;
+	color: #4B3F72;
+	margin: 0px;
+}
+a{
+	color: #FFC857
+}
+.nomeat{
+	color: #1F2041;
+}
+.meat{
+	color: #19647E;
+}
+#rand{
+	background-color: red;
+}
 
+
+#title{
+	height: 60px;
+  width: 100%;
+  box-shadow: 10px 10px;
+  border: 1px solid grey;
+}
+#container{
+	position: relative;
+	height: 1000px;
+}
+#sidebar{
+	position: absolute;
+	top: 0px;
+	padding: 10px;
+	width: 200px;
+	height: 100%;
+	background-image: linear-gradient(lightblue, red);
+}
+#content{
+	border: 2px solid grey;
+	position: absolute; 
+	top: 0px;
+	left: 200px;
+
+}
+
+* {
+	box-sizing: border-box;
+}
